@@ -7,10 +7,15 @@
 </div>
 
 <style>
+
+@font-face {
+    font-family: 'champagne';
+    /* font-style: normal; */
+    /* font-weight: 500; */
+    src: url('../../static/Champagne.ttf') format('tff');
+}
     #body {
         background-color: #33597C;
-        font-family: none;
-        color: #ffffff;
     }
 
     #bild {
@@ -21,6 +26,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        /* font-family: 'champagne'; */
+        font-size: 70pt;
+        color: #ffffff;
+        padding: 50px;
     }
 
 </style>

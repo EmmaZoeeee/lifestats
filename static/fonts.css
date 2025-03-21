@@ -2,7 +2,7 @@
     font-family: 'champagne';
     /* font-style: normal; */
     /* font-weight: 500; */
-    src: url('/static/Champagne.ttf') format('tff');
+    src: url('/static/Champagne.ttf') format('truetype');
 }
 
 *,h1,h2,h3 {

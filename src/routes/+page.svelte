@@ -18,10 +18,10 @@
     font-family: 'champagne';
     /* font-style: normal; */
     /* font-weight: 500; */
-    src: url('../../static/Champagne.ttf') format('tff');
+    src: url('../../static/Champagne.ttf') format('truetype');
 }
     main {
-        background-color: #33597C;
+        background-color: rgb(69, 84, 114);
     }
 
     #bild {

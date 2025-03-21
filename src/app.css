@@ -1,3 +1,15 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 @plugin '@tailwindcss/forms';
+
+
+@font-face {
+    font-family: 'champagne';
+    /* font-style: normal; */
+    /* font-weight: 500; */
+    src: url('/Champagne.ttf') format('truetype');
+}
+
+*,h1,h2,h3 {
+    font-family: 'champagne';
+}

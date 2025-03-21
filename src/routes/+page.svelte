@@ -1,9 +1,10 @@
 <div id="body">
     <div class="rubrik"><h1>LIFESTATS</h1></div>
-    <div id="bild"><img src="/earth2.png" alt="earth2"></div>
     <div> Your birthdate:</div>
     <div> Month Day Year</div>
     <div> Calculate</div>
+    <div id="bild"><img src="/earth.png" alt="earth"></div>
+    
 </div>
 
 <style>
@@ -19,7 +20,8 @@
     }
 
     #bild {
-        border-radius: 50%;
+        display: flex;
+        justify-content: center;
     }
 
     h1 {

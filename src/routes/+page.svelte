@@ -107,7 +107,7 @@
         {/if}
     
         {#if results.length > 0}
-            <ul>
+            <ul class="result">
                 {#each results as result}
                     <li>{result.name}: <strong>{result.value}</strong></li>
                  {/each}
@@ -133,7 +133,8 @@
     /* src: url('../../static/Champagne.ttf') format('truetype'); */
  }
     main {
-        background-color: rgb(121, 136, 164);
+        /* background-color: rgb(121, 136, 164); */
+        background-color: rgb(6, 10, 17);
     }
 
     #bild {
@@ -171,7 +172,7 @@
     }
 
     .error {
-      color: rgb(179, 126, 126);
+      color: rgb(255, 196, 196);
       font-weight: bold;
       margin-top: 1rem;
     }
@@ -210,6 +211,10 @@
 
     .button {
         width: 555px;
+    }
+
+    .result {
+        color: white;
     }
 
 </style>

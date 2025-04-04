@@ -73,25 +73,25 @@
 
     <div class="rubrik col-start-2 row-start-2 justify-self-center"><h1>LIFESTATS</h1></div>
     
-    <div id="type" class="col-start-2 row-start-4 justify-self-center"> Your birthdate:</div>
+    <div id="type" class="col-start-2 row-start-4 row-end-7 justify-self-center w-139 h-12"> Your birthdate:</div>
 
     <div id="day" class="col-start-2 row-start-5 justify-self-start m-3">         
-        <input class="bibi w-20" type="number" placeholder="Day" min="1" max="31"
+        <input class="bibi w-25" type="number" placeholder="Day" min="1" max="31"
         on:input={(e) => birthDay = +e.target.value}>   
     </div>
 
     <div id="month" class="col-start-2 row-start-5 justify-self-center m-3">         
-        <input class="bibi w-20" type="number" placeholder="Month" min="1" max="12"
+        <input class="bibi w-25" type="number" placeholder="Month" min="1" max="12"
         on:input={(e) => birthMonth = +e.target.value}>    
     </div>
 
     <div id="year" class="col-start-2 row-start-5 justify-self-end m-3">         
-        <input class="bibi w-20" type="number" placeholder="Year" min="1900" max="2025"
+        <input class="bibi w-25" type="number" placeholder="Year" min="1900" max="2025"
         on:input={(e) => birthYear = +e.target.value}>    
     </div>
    
-    <div id="calculate" class="col-start-2 row-start-6 justify-self-center m-8">
-        <button on:click={() => { console.log("Klickade på knappen!"); calculate(); }}>
+    <div id="calculate" class="col-start-2 row-start-6 justify-self-center m-15">
+        <button class="button" on:click={() => { console.log("Klickade på knappen!"); calculate(); }}>
             Calculate
           </button>
           
@@ -114,7 +114,6 @@
             </ul>
         {/if}
     </div>
-    
 
 </main>
 
@@ -134,7 +133,7 @@
     /* src: url('../../static/Champagne.ttf') format('truetype'); */
  }
     main {
-        background-color: rgb(69, 84, 114);
+        background-color: rgb(121, 136, 164);
     }
 
     #bild {
@@ -201,7 +200,16 @@
 
     #type {
         color:#ffffff;
+        background-color: rgb(69, 84, 114);
         font-size: 20pt;
+        /* border: 2px solid rgb(69, 84, 114); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        width: 555px;
     }
 
 </style>

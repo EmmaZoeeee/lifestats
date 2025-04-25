@@ -162,11 +162,11 @@
       background-color: rgb(43, 56, 82);
       font-size: 20pt;
       color: white;
-      border: none; 
+      border: none;
       border-radius: 0px;
       cursor: pointer;
-
     }
+
     button:hover {
       background-color: rgb(95, 112, 145);
     }

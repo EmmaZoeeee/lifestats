@@ -9,9 +9,13 @@
 
     let andetag = $derived(days * 25000)
 
+    let hjärtslag = $derived(days * 100000)
+
+    let jorden = $derived(days / 29.5)
+
 </script>
 
-<main class="grid grid-cols-[30%_40%_30%] grid-rows-[10%_10%_10%_10%_5%_5%_10%_30%_30%_30%_30%]">
+<main class="grid grid-cols-[30%_40%_30%] grid-rows-[10%_10%_10%_10%_5%_5%_10%_30%_30%_30%_30%_30%_30%]">
 
     <div id="rubrik" class="rubrik col-start-2 row-start-2 justify-self-center"><h1>LIFESTATS</h1></div>
     
@@ -33,6 +37,14 @@
 
     <section id="årlevt" class="col-start-1 col-end-4 row-start-11 row-end-11">
         <p>Du har tagit {andetag} andetag</p>
+    </section>
+
+    <section id="hjärta" class="col-start-1 col-end-4 row-start-12 row-end-12">
+        <p>Ditt hjärta har slått {hjärtslag} gånger</p>
+    </section>
+
+     <section id="jorden" class="col-start-1 col-end-4 row-start-13 row-end-13">
+            <p>Månen har hunnit roterat {jorden} varv runt jorden under din livstid</p>
     </section>
 
 </main>
@@ -70,6 +82,20 @@
     }
 
     #årlevt {
+        color:#ffffff;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(18, 28, 45);
+    }
+
+    #jorden {
+        color:#ffffff;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(18, 28, 45);
+    }
+
+    #hjärta {
         color:#ffffff;
         display: flex;
         justify-content: center;

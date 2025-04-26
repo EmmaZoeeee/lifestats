@@ -63,6 +63,7 @@
             value: calc.formula(timeLived).toLocaleString() // Formaterar siffror snyggt
           }));
         }
+
     
       </script>
 
@@ -114,14 +115,7 @@
             </ul>
         {/if}
     </div>
-
 </main>
-
-
-
-
-
-
 
 
 <style>

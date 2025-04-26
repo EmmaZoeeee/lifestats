@@ -13,9 +13,13 @@
 
     let jorden = $derived(days / 29.5)
 
+    let blinka = $derived(days * 10000)
+
+    let sova = $derived(days / 3)
+
 </script>
 
-<main class="grid grid-cols-[30%_40%_30%] grid-rows-[10%_10%_10%_10%_5%_5%_10%_30%_30%_30%_30%_30%_30%]">
+<main class="grid grid-cols-[30%_40%_30%] grid-rows-[10%_10%_10%_10%_5%_5%_10%_30%_30%_30%_30%_30%_30%_30%_30%]">
 
     <div id="rubrik" class="rubrik col-start-2 row-start-2 justify-self-center"><h1>LIFESTATS</h1></div>
     
@@ -43,8 +47,16 @@
         <p>Ditt hjärta har slått {hjärtslag} gånger</p>
     </section>
 
-     <section id="jorden" class="col-start-1 col-end-4 row-start-13 row-end-13">
+    <section id="jorden" class="col-start-1 col-end-4 row-start-13 row-end-13">
             <p>Månen har hunnit roterat {jorden} varv runt jorden under din livstid</p>
+    </section>
+
+    <section id="blinka" class="col-start-1 col-end-4 row-start-14 row-end-14">
+        <p>Du har blinkat {blinka} gånger</p>
+    </section>
+
+    <section id="sova" class="col-start-1 col-end-4 row-start-15 row-end-15">
+        <p>Du har sovit i {sova} dagar. Det är en tredjedel av ditt liv!</p>
     </section>
 
 </main>
@@ -96,6 +108,20 @@
     }
 
     #hjärta {
+        color:#ffffff;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(18, 28, 45);
+    }
+
+    #blinka {
+        color:#ffffff;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(18, 28, 45);
+    }
+    
+    #sova {
         color:#ffffff;
         display: flex;
         justify-content: center;

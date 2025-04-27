@@ -2,27 +2,19 @@
 
    let days = $state(0)
 
-
    let weeks = $derived(days / 7)
-
 
    let year = $derived(days / 365)
 
-
    let andetag = $derived(days * 25000)
-
 
    let hjärtslag = $derived(days * 100000)
 
-
    let jorden = $derived(days / 29.5)
-
 
    let blinka = $derived(days * 10000)
 
-
    let sova = $derived(days / 3)
-
 
 </script>
 

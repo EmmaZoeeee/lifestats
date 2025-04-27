@@ -62,6 +62,10 @@
         <img src="/Life stats sova.png" alt="sova">
     </section>
 
+    <section id="bildbakgrund2" class="col-start-1 col-end-4 row-start-14 row-end-15">
+        <img src="/Life stats bakgrund2.png" alt="bakgrund">
+    </section>
+
 
 
 
@@ -117,6 +121,8 @@
     <section id="footer2" class="col-start-1 col-end-4 row-start-15 row-end-15">
         <p>Kontakta xxxxxxxxxxx@gmail.com</p>
     </section>
+
+    
 
 
     <!-- <section id="text" class="rubrik col-start-2 row-start-2 justify-self-center">
@@ -255,7 +261,7 @@
     }
 
     #footer {
-        background-color: rgb(18, 28, 45);
+        /* background-color: rgb(18, 28, 45); */
         display: flex;
         justify-content: center;
         align-items: end;
@@ -264,7 +270,7 @@
     }
 
     #footer2 {
-        background-color: rgb(18, 28, 45);
+        /* background-color: rgb(18, 28, 45); */
         display: flex;
         justify-content: center;
         color: rgb(255, 255, 255);
@@ -295,10 +301,12 @@
     #bildbaby {
         display: flex;
         align-items: start;
+        padding-left: 600px;
+        padding-top: 100px;
     }
 
     #bildbaby img {
-        width: 20%;
+        width: 30%;
     }
 
 </style>

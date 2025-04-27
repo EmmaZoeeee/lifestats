@@ -19,7 +19,7 @@
 
 </script>
 
-<main class="grid grid-cols-[30%_40%_30%] grid-rows-[10%_10%_10%_10%_5%_5%_10%_30%_30%_30%_30%_30%_30%_30%_30%_20%]">
+<main class="grid grid-cols-[30%_40%_30%] grid-rows-[10%_10%_10%_10%_5%_5%_10%_30%_30%_30%_30%_30%_30%_30%_30%_10%_10%]">
 
     <div id="rubrik" class="rubrik col-start-2 row-start-2 justify-self-center"><h1>LIFESTATS</h1></div>
     
@@ -60,7 +60,11 @@
     </section>
 
     <section id="footer" class="col-start-1 col-end-4 row-start-16 row-end-16">
-        <p>footer text...</p>
+        <p>Är det någonting du saknar?</p>
+    </section>
+
+    <section id="footer2" class="col-start-1 col-end-4 row-start-17 row-end-17">
+        <p>Kontakta xxxxxxxxxxx@gmail.com</p>
     </section>
 </main>
 
@@ -151,6 +155,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    #footer2 {
+        background-color: rgb(125, 156, 208);
+        display: flex;
+        justify-content: center;
     }
 
     #bild {

@@ -19,7 +19,7 @@
 
 </script>
 
-<main class="grid grid-cols-[30%_40%_30%] grid-rows-[10%_10%_10%_10%_5%_5%_10%_30%_30%_30%_30%_30%_30%_30%_30%]">
+<main class="grid grid-cols-[30%_40%_30%] grid-rows-[10%_10%_10%_10%_5%_5%_10%_30%_30%_30%_30%_30%_30%_30%_30%_20%]">
 
     <div id="rubrik" class="rubrik col-start-2 row-start-2 justify-self-center"><h1>LIFESTATS</h1></div>
     
@@ -59,6 +59,9 @@
         <p>Du har sovit i {sova} dagar. Det är en tredjedel av ditt liv!</p>
     </section>
 
+    <section id="footer" class="col-start-1 col-end-4 row-start-16 row-end-16">
+        <p>footer text...</p>
+    </section>
 </main>
 
 
@@ -72,7 +75,8 @@
  }
     main {
         /* background-color: rgb(121, 136, 164); */
-        background-color: rgb(18, 28, 45);
+        /* background-color: rgb(18, 28, 45); */
+        background-color: rgb(125, 156, 208);
         /* background-color: rgb(125, 153, 201); */
         height: 100vh;
     }
@@ -83,6 +87,8 @@
         border: none;
         display: flex;
         justify-content: center;
+        background-color:rgb(18, 28, 45);
+        padding-top: 50px;
     }
 
     #veckorlevt {
@@ -91,6 +97,7 @@
         border: none;
         display: flex;
         justify-content: center;
+        padding-top: 50px;
     }
 
     #årlevt {
@@ -98,6 +105,7 @@
         display: flex;
         justify-content: center;
         background-color: rgb(18, 28, 45);
+        padding-top: 50px;
     }
 
     #jorden {
@@ -105,6 +113,7 @@
         display: flex;
         justify-content: center;
         background-color: rgb(18, 28, 45);
+        padding-top: 50px;
     }
 
     #hjärta {
@@ -112,6 +121,7 @@
         display: flex;
         justify-content: center;
         background-color: rgb(18, 28, 45);
+        padding-top: 50px;
     }
 
     #blinka {
@@ -119,6 +129,7 @@
         display: flex;
         justify-content: center;
         background-color: rgb(18, 28, 45);
+        padding-top: 50px;
     }
     
     #sova {
@@ -126,12 +137,20 @@
         display: flex;
         justify-content: center;
         background-color: rgb(18, 28, 45);
+        padding-top: 50px;
     }
 
     #skriv {
         border: none;
         border: none;
         border: solid 1px rgb(18, 28, 45);
+    }
+
+    #footer {
+        background-color: rgb(125, 156, 208);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #bild {
